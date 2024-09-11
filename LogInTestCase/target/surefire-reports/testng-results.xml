@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T23:25:45 IST" name="Surefire suite" finished-at="2024-09-11T23:25:51 IST" duration-ms="6599">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T23:25:45 IST" name="Surefire test" finished-at="2024-09-11T23:25:51 IST" duration-ms="6599">
+      <class name="Project.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Project.LoginTest@31304f14]" started-at="2024-09-11T23:25:45 IST" name="setup" finished-at="2024-09-11T23:25:48 IST" duration-ms="2868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="successfulLoginTest()[pri:1, instance:Project.LoginTest@31304f14]" started-at="2024-09-11T23:25:48 IST" name="successfulLoginTest" finished-at="2024-09-11T23:25:49 IST" duration-ms="1427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginTest -->
+        <test-method signature="unsuccessfulLoginTest_IncorrectPassword()[pri:2, instance:Project.LoginTest@31304f14]" started-at="2024-09-11T23:25:49 IST" name="unsuccessfulLoginTest_IncorrectPassword" finished-at="2024-09-11T23:25:50 IST" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginTest_IncorrectPassword -->
+        <test-method signature="emptyFieldsTest()[pri:3, instance:Project.LoginTest@31304f14]" started-at="2024-09-11T23:25:50 IST" name="emptyFieldsTest" finished-at="2024-09-11T23:25:50 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFieldsTest -->
+        <test-method signature="specialCharactersTest()[pri:4, instance:Project.LoginTest@31304f14]" started-at="2024-09-11T23:25:50 IST" name="specialCharactersTest" finished-at="2024-09-11T23:25:51 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- specialCharactersTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Project.LoginTest@31304f14]" started-at="2024-09-11T23:25:51 IST" name="tearDown" finished-at="2024-09-11T23:25:51 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Project.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
